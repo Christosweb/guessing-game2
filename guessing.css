@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to bottom, red, yellow);
+   background: -moz-linear-gradient(to bottom, red, yellow);
+   background: -webkit-linear-gradient(to bottom, red, yellow);
+   width: 100%;
+   min-height: 100vh;
+}
+.container{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+    align-items: center;
+    height:23em;/*28*/
+    width: 18em;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+
+}
+h1{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: "ubuntu mono";
+
+}.comp_container{
+    margin-top: 20px;
+    font-family: fantasy;
+    color: gold;
+    text-align: center;
+    font-size: 1.3em;
+    
+}.message_container, .airtime_used{
+    text-align: center;
+    color: gold;
+    font-size: 1.2em;
+    display: none;
+
+}.over_container{
+    color:gold;
+    font-size: 40px;
+    display: none;
+
+}.score_container{
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 5px;
+    display: none;
+    
+}.score{
+    margin-right: auto;
+    margin-left:10px ;
+}.time{
+    margin-right: 10px;
+}input[type = 'number']{
+    height:40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}.right, .wrong{
+    text-align: center;
+    background-color:green;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+    
+}.wrong{
+    background: red;
+    margin-bottom: 30px;
+}#button, #btn, #btn2, #btn3{
+    
+    padding: 10px;
+    background-color: black;
+    color: beige;
+    text-transform: uppercase;
+    margin-top:30px ;
+ }#btn, #btn2, #btn3{
+    display:none;
+ }.right{
+    display: none;
+ }

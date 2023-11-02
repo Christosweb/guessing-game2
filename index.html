@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:regular,italic,700,700italic" rel="stylesheet" />
+    <link rel="stylesheet" href="guessing.css">
+    <script src="guessing.js" async defer></script>
+    <title>guessing game </title>
+</head>
+<body>
+    <p class="correct">9</p>
+   <div class="container">
+    <h1>NUMBER GUESSING GAME</h1>
+    <div class="comp_container">
+        <p class="comp_word">"I'm thinking of a number between 0 and 9, guess the number and win #100 airtime "</p>
+    </div>
+
+    <div class="message_container">
+        <p class="message"> **CONGRATULATIONS** YOU HAVE WON #100 MTN AIRTIME </p>
+    </div>
+
+    <div class="over_container">
+        <p class="over">GAME OVER</p>
+    </div>
+
+    <div class="airtime_used">
+        <p class="used">ALL AIRTIMES HAVE BEEN WON AND PROBABLY USED</p>
+    </div>
+
+    <div class="score_container">
+        <h4 class="score">Score: <span class="score_update">0</span></h4>
+        <h4 class="time">Time left: <span class="time_update">60s</span></h4>
+    </div>
+    <div class="inp_container">
+        <input type="number" id="number" autofocus>
+    </div>
+
+    <div class="right"> is correct</div>
+    <div class="wrong">the correct number is 2. you guessed </div>
+    
+    <input type="button" value="start" id="button">
+    <input type="button" value="submit" id="btn">
+    <input type="button" value="play again" id="btn2">
+    <input type="button" value="replay" id="btn3">
+
+   </div>
+</body>
+</html>
