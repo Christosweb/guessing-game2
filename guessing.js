@@ -15,7 +15,7 @@ let randonNumber;
 let inputValue;
 
 // create array of airtime
-const airtime = [666666666666, 888888888888, 222222222222]
+const airtime = ['5078-8677-7631-55861', '1700-6855-4737-80295', '2808-2180-3999-99354']
 
 // function to output array
 function airtimeCongrats(card) {
@@ -61,8 +61,7 @@ function isDisabled() {
      startBtn.style.display ="none"
      submit.style.display = "block"
      update_rand()
-  //########################################################################  
-  document.querySelector(".correct").innerHTML = randonNumber 
+  
   }
 
 // function to get input value
@@ -70,11 +69,7 @@ function getInputValue() {
  return input.value ;
 }
 
-//function to update counter
-let time_counter = 60
-function isCounter(counter) {
-    --counter
-}
+
 // function to update innerText of right 
 function getRightMessage() {
     let currentContent = right.innerHTML;
